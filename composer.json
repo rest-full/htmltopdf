@@ -1,0 +1,27 @@
+{
+    "name": "rest-full/htmltopdf",
+    "description": "Html to pdf converter with html2pdf or Mpdf or Dompdf component embedded.",
+    "type": "library",
+    "minimum-stability": "stable",
+    "license": "mit",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "José Luis",
+            "email": "simaowebsolutions@yahoo.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Restfull\\": "src"
+        }
+    },
+    "require": {
+        "php": ">=7.3",
+        "rest-full/error": "1.*",
+        "rest-full/filesystem": "1.*",
+        "spipu/html2pdf": "v5.*",
+        "mpdf/mpdf": "v8.*",
+        "dompdf/dompdf": "v2.*"
+    }
+}
